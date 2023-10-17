@@ -1,0 +1,22 @@
+#firstRowHomePage {
+    /* Full view height */
+    min-height: 40vh;
+    /* Img */
+    background-image: url("../img/default-picture.png");
+    /* Center and scale */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Push the footer down */
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.site-content {
+	flex: 1;
+}
